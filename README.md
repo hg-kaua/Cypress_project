@@ -1,0 +1,2 @@
+# Cypress_project
+ Este repositório é dedicado a hospedar uma série de projetos desenvolvidos com Cypress, visando aprimorar minhas habilidades em automação de testes para aplicações web. Cada projeto aqui presente serve como uma demonstração prática do meu aprendizado contínuo e da aplicação de técnicas de testes automatizados, com o objetivo de garantir a qualidade e a eficiência das aplicações.
