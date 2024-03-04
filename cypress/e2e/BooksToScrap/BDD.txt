@@ -1,0 +1,23 @@
+Cenário 1: Verificar se tem livros 
+    Dado:
+        Que eu esteja logado no BooksToScrape
+        E esteja na pagina principal
+    Então:
+        Deveria exibir os livros 
+
+Cenário 2: Procurar livro do Steve Jobs:
+    Dado:
+        Que eu esteja logado
+        E na págigina principal
+        E navego pelas páginas
+    Então:
+        Deveria encontrar o livro do Steve Jobs
+
+Cenário 3: Procurar por livros da categoria de ficção:
+    Dado:
+        Que eu esteja logado
+        E na págigina principal
+        E entro na categoria de ficçao
+        E navego pelas páginas
+    Então:
+        Deveria encontrar todos os livros em estoque

@@ -1,0 +1,26 @@
+Título: Formulário de pagamento Aceita Formatos inválidos
+
+Descrição: Durante o processo de cadastro de informações para o pagamento no site Product Store, percebi que é possível inserir valores inválidos destinado aos campos: Name, Country, City, Credit card, Month 
+e Year. Isso permite o cadastro de informações que não seguem o padrão correto (ex.: @@@@ no campo Country , 20.102 para no campo Month), o que resulta em potenciais problemas de segurança.
+
+Passo a passo:
+* acesse o site: https://www.demoblaze.com/index.html
+* clique em um produto
+* clique para adicionar o produto no carrinho
+* clique em Cart
+* clique em Place Order
+* no formulário, insira as informações com formato inválido
+* clique em Purchase para finalizar
+
+Resultado esperado: O sistema deveria verificar os campos no formulário e retornar uma mensagem de erro dizendo que não foi possível o cadastro devido o formato inválido, impedindo o avanço da compra
+Resultado obtido: O sistema permite a conclusão da compra sem exibir qualquer aviso de erro sobre os campos inválidos, retornando uma tela de confirmação de compra
+
+Sobre o ambiente:
+* Google Chrome (Versão 96.0.4664.55)
+* data: 29/02/2024
+
+
+Evidências:
+    
+
+￼

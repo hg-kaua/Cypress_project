@@ -1,0 +1,36 @@
+
+Cenário 1: Login com sucesso
+    Dado:
+        Que eu esteja na pagina do ProductStore
+        E realize o Login
+    Então:
+        Deveria aparecer meu perfil
+
+Cenário 2: Compras de produtos 
+    Dado:
+        Que eu esteja logado
+        E na página principal
+        E selecione os produtos
+        E adiciono no carrinho
+        E entro na página do carrinho
+    Então:
+        Os produtos selecionado deveriam aparecer
+
+Cenário 3: Cancelamento do nexus
+    Dado: 
+        Que eu esteja dentro do carrinho
+        E quero tirar um produtos
+    Quando:
+        tirar o produto do carrinho
+        E validar Compra
+    Então:
+        Formulário para finalizar compras deveria aparecer
+
+Cenário 4: Finalizaçao de compra
+    Dado: 
+        Que eu esteja no formulário para finalizar compras
+        E insiro os dados válidos
+        E Valido informaçoes
+    Então:
+        Mensagem de compra realizada deveria aparecer
+    

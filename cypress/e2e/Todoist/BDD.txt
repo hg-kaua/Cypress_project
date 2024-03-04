@@ -1,0 +1,30 @@
+Cenário 1: Login com sucesso
+    Dado:
+        Que estou na página inicial do Todoist
+        E acesso a página de login
+        E insiro meus dados
+    Quando:
+        Validar as informações
+    Então:
+        Devo entrar no meu perfil
+
+Cenário 2: Criação de tarefas
+    Dado:
+        Que estou logado
+        E adiciono nova tarefa
+        E preencho as informaçoes da tarefa
+    Quando:
+        Validar tarefa
+    Então:
+        As tarefas deveriam aparecer na lista de tarefas
+
+Cenário 3: Tarefas Adiconadas
+    Dado:
+        Que tenha adicionado tarefas
+        E entro em entrada
+    Então:
+        As tarefas deveriam aparecer na lista
+
+
+
+    
