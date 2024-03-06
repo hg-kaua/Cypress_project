@@ -7,7 +7,7 @@ describe('Api - Teste funcional de login', () => {
             method: 'POST',
             url: 'http://localhost:3000/login',
             body: {
-                "email": "fulano@qa.com",
+                "email": "fulaninho@qa.com",
                 "password": "teste"
             }
         }).then((response)=>{
@@ -34,7 +34,7 @@ describe('Api - Teste funcional de login', () => {
             url: "http://localhost:3000/usuarios",
             body: {
                 "nome": "Hugo Medeiros",
-                "email": "hugok@gmail.com",
+                "email": "hgkaua@gmail.com",
                 "password": "1234",
                 "administrador": "true",
             }
