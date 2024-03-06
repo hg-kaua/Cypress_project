@@ -26,6 +26,9 @@ Sobre o ambiente:
 
 
 Evidências:
+
+'/ProductStore/screenshots/antesConfirmacao.png'
+'/ProductStore/screenshots/depoisConfirmacao.png'
     
 
 ￼

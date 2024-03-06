@@ -1,0 +1,31 @@
+Título: Formulário aceita Email inválido
+
+Descrição: Ao longo do processo de registro de aluno, no site
+DemoQa, percebi que existe um erro ao inserir alguns valores para 
+o email, ex: teste@gmail.co, teste@gmaiiil.commbs. Essa falha na validação
+de emails pode levar a problemas significativos, incluindo a incapacidade 
+de contatar alunos através do email, pois a mensagem iria para
+um email que não existe.
+
+Passo a passo:
+* Acesse o site https://demoqa.com/
+* Acesse a página "Forms"
+* Clique em Practice Form
+* Insira as informações obrigatórias
+* No campo email insira com um formato inválido
+* Clique em submit para validar
+
+Resultado esperado: O sistema deveriar alertar o usuário
+mostrando que o campo de email está fora do padrão válido 
+e impedindo a validação do email.
+Resultado obtido: O sistema aceita o formato inválido e 
+retorna uma mensagem de validação pro usuário.
+
+Sobre o ambiente:
+* Google Chrome (Versão 96.0.4664.55)
+* data: 6/03/2024
+
+Evidências:
+
+'/DemoQA/screenshots/AntesValidacao.png'
+'/DemoQA/screenshots/DepoisValidacao.png'
